@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Style/style.css" type="text/css" />
+    <title>Urna Eletrônica</title>
+  </head>
+
+  <body>
+    <h1>Urna Eletrônica</h1>
+
+    <div class="urna">
+      <div class="tela">
+        <div class="d_1">
+          <div class="d_1_left">
+            <div class="d_1_1">
+              <b><span>SEU VOTO PARA:</span></b>
+            </div>
+            <div class="d_1_2">
+              <h2><span>CARGO</span></h2>
+            </div>
+            <div class="d_1_3">
+              <div class="numero pisca"></div>
+              <div class="numero"></div>
+            </div>
+            <div class="d_1_4">
+              Nome: FULANO DE TAL<br />
+              Partido: AAA<br />
+              Vice-Prefeito: BELTRANO DE TAL
+            </div>
+          </div>
+          <div class="d_1_right">
+            <div class="d_1_image">
+              <img src="./Assets/prefeito1.png" height="150px" width="" />
+              Prefeito
+            </div>
+            <div class="d_1_image small">
+              <img src="./Assets/vice_prefeito1.png" height="120px" />
+              Vice-Prefeito
+            </div>
+          </div>
+        </div>
+        <div class="d_2">
+          Aperte a tecla:<br />
+          VERDE para CONFIRMAR este voto<br />
+          LARANJA para CORRIGIR este voto
+        </div>
+      </div>
+      <div class="teclado">
+        <div class="lateral">
+          <img
+            src="./Assets/republica.png"
+            alt="Brasão da República do Brasil"
+          />
+          <h2>Justiça Eleioral</h2>
+        </div>
+        <div class="teclado_linha">
+          <div class="teclado_botao" onclick="clicou('1')">1</div>
+          <div class="teclado_botao" onclick="clicou('2')">2</div>
+          <div class="teclado_botao" onclick="clicou('3')">3</div>
+        </div>
+        <div class="teclado_linha">
+          <div class="teclado_botao" onclick="clicou('4')">4</div>
+          <div class="teclado_botao" onclick="clicou('5')">5</div>
+          <div class="teclado_botao" onclick="clicou('6')">6</div>
+        </div>
+        <div class="teclado_linha">
+          <div class="teclado_botao" onclick="clicou('7')">7</div>
+          <div class="teclado_botao" onclick="clicou('8')">8</div>
+          <div class="teclado_botao" onclick="clicou('9')">9</div>
+        </div>
+        <div class="teclado_linha">
+          <div class="teclado_botao" onclick="clicou('0')">0</div>
+        </div>
+        <div class="teclado_linha">
+          <div class="teclado_botao btn_branco" onclick="branco()">BRANCO</div>
+          <div class="teclado_botao btn_corrige" onclick="corrige()">
+            CORRIGE
+          </div>
+          <div class="teclado_botao btn_confirma" onclick="confirma()">
+            CONFIRMA
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <a id="votos" href="./Resultado/votos.html">CONFERIR VOTOS</a>
+
+    <script src="./Scripts/system.js"></script>
+    <script src="./Scripts/interface.js"></script>
+  </body>
+</html>
