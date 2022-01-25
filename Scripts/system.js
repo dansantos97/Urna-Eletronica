@@ -6,25 +6,25 @@ let etapas = [
       {
         numero: "28000",
         nome: "Reginaldo",
-        partido: "FLA",
+        partido: "ABC",
         fotos: [{ url: "./Assets/vereador1.png", legenda: "Vereador" }],
       },
       {
         numero: "40111",
         nome: "Lourdes",
-        partido: "VAS",
+        partido: "CA",
         fotos: [{ url: "./Assets/vereador2.png", legenda: "Vereadora" }],
       },
       {
         numero: "18000",
         nome: "Josivalda",
-        partido: "FLU",
+        partido: "XYZ",
         fotos: [{ url: "./Assets/vereador3.png", legenda: "Vereadora" }],
       },
       {
         numero: "30111",
         nome: "Zequinha",
-        partido: "BOT",
+        partido: "AEI",
         fotos: [{ url: "./Assets/vereador4.png", legenda: "Vereador" }],
       },
     ],
@@ -36,7 +36,7 @@ let etapas = [
       {
         numero: "28",
         nome: "Juquinha",
-        partido: "FLA",
+        partido: "ABC",
         fotos: [
           { url: "./Assets/prefeito1.png", legenda: "Prefeito" },
           {
@@ -49,7 +49,7 @@ let etapas = [
       {
         numero: "40",
         nome: "Jujuba",
-        partido: "VAS",
+        partido: "CA",
         fotos: [
           { url: "./Assets/prefeito2.png", legenda: "Prefeita" },
           {
